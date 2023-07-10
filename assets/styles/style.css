@@ -168,14 +168,32 @@ body {
 }
 
 .promo-section .promo-info h2 span {
-    color: #E55473;
+  color: #e55473;
 }
-
 
 .promo-section .promo-info .text-primary {
   text-align: center;
 }
 
-.promo-section img {
-  /* width: 50%; */
+/* Instagram section */
+.instagram-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.instagram-section .text-primary {
+  width: 600px;
+  text-align: center;
+}
+
+.instagram-section .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.instagram-section .gallery .image img {
+  width: 100%;
 }
