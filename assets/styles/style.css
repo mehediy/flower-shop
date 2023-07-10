@@ -127,3 +127,24 @@ body {
 .featured-flowers .item .bg-3 {
   background: rgba(5, 151, 160, 0.15);
 }
+
+/* Why Us section */
+.why-us-section {
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.why-us-section .item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.why-us-section .item p {
+  padding-top: 1rem;
+}
