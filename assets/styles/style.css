@@ -86,8 +86,9 @@ body {
 
 .featured-flowers {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
+  width: 100%;
 }
 
 .featured-flowers .item {
@@ -109,7 +110,7 @@ body {
 
 .featured-flowers .item .flower {
   height: 400px;
-  width: 350px;
+  width: 380px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
