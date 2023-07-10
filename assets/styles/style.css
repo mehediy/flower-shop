@@ -20,6 +20,12 @@ body {
   font-weight: 900;
 }
 
+.heading-secondary {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
 .text-primary {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -34,6 +40,10 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+}
+
+.mt-3 {
+  margin-top: 5rem;
 }
 
 /* Header Section */
@@ -58,4 +68,62 @@ body {
   gap: 1rem;
   flex-direction: column;
   align-items: flex-start;
+}
+
+/* Featured Section */
+/* *************** */
+.featured-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.featured-section .text-primary {
+  width: 600px;
+  text-align: center;
+}
+
+.featured-flowers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.featured-flowers .item {
+  text-align: center;
+}
+
+.featured-flowers .item a {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  padding-top: 1rem;
+  text-decoration-line: underline;
+}
+
+.featured-flowers .item img {
+  width: 70%;
+}
+
+.featured-flowers .item .flower {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.featured-flowers .item .bg-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flowers .item .bg-2 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-flowers .item .bg-3 {
+  background: rgba(5, 151, 160, 0.15);
 }
