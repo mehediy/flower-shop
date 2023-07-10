@@ -223,3 +223,36 @@ body {
   display: flex;
   gap: 1rem;
 }
+
+/* Footer */
+.footer {
+  background: #111010;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer p {
+  width: 600px;
+  text-align: center;
+}
+
+.footer span {
+  color: #e55473;
+}
+
+.footer .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
