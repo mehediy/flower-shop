@@ -148,3 +148,34 @@ body {
 .why-us-section .item p {
   padding-top: 1rem;
 }
+
+/* Promo Section */
+.promo-section {
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.promo-section .promo-info {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.promo-section .promo-info h2 span {
+    color: #E55473;
+}
+
+
+.promo-section .promo-info .text-primary {
+  text-align: center;
+}
+
+.promo-section img {
+  /* width: 50%; */
+}
