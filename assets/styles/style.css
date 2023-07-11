@@ -40,6 +40,12 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #d55473;
+  transition: 0.3s;
 }
 
 .mt-3 {
@@ -56,16 +62,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 2rem 0 2rem;
+  /* padding: 3rem 2rem 0 2rem; */
   gap: 2rem;
+  height: 700px;
 }
 .header-content img {
-  width: 450px;
+  /* width: 450px; */
+  height: 90%;
+  align-self: flex-end;
 }
 
 .heading-info {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -214,7 +223,7 @@ body {
 
 .testimonials > div {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
 }
 
@@ -230,9 +239,7 @@ body {
   align-items: center;
   gap: 1rem;
   border-radius: 5px;
-}
-
-.testimonials .item {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 /* Subscribe Section */
@@ -246,6 +253,7 @@ body {
   background-size: cover;
   gap: 1rem;
   height: 400px;
+  border-radius: 10px;
 }
 
 .subscribe-section input[type="email"] {
@@ -259,6 +267,7 @@ body {
 .subscribe-section form {
   display: flex;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 /* Footer */
