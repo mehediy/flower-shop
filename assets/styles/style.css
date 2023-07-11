@@ -30,6 +30,7 @@ body {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
 }
 
 .btn-primary {
@@ -49,7 +50,7 @@ body {
 }
 
 .mt-3 {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 /* Header Section */
@@ -147,12 +148,18 @@ body {
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  gap: 3rem;
+  /* gap: 1rem; */
 }
 
 .why-us-section .item {
   text-align: center;
   padding: 1rem;
+  flex: 1;
+}
+
+.why-us-section .item p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
 }
 
 .why-us-section .item p {
@@ -216,7 +223,7 @@ body {
   gap: 2rem;
 }
 
-.testimonials .text-primary {
+.testimonials > .text-primary {
   width: 600px;
   text-align: center;
 }
@@ -241,6 +248,10 @@ body {
   border-radius: 5px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+/* .testimonials .item p {
+  line-height: 30px;
+} */
 
 /* Subscribe Section */
 .subscribe-section {
