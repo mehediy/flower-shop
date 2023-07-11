@@ -236,8 +236,8 @@ body {
 
 .testimonials .item {
   background: rgba(229, 84, 115, 0.05);
-  height: 300px;
-  width: 300px;
+  /* height: 300px; */
+  /* width: 300px; */
   padding: 2rem;
   display: flex;
   justify-content: center;
